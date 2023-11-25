@@ -1,2 +1,3 @@
 # testimonials-grid-section
-![alt text](image-kira.jpg)
+![alt text](desktop-design.jpg)
+![alt text](mobile-design.jpg)
