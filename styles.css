@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: hsl(210, 46%, 95%);
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20em 22em 22em 22em;
+  grid-template-rows: 24em 24em;
+  justify-content: center;
+  margin-top: 12em;
+  gap: 2em;
+}
+
+.t1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  width: 42.5em;
+  position: relative;
+  background-color: hsl(263, 55%, 52%);
+  box-shadow: 10px 10px 30px hsl(0, 0%, 81%);
+}
+
+.quotation {
+  border-radius: 0;
+  position: absolute;
+  left: 27em;
+  top: 0;
+  height: 9em;
+  width: 9em;
+}
+
+.t2 {
+  grid-row: 1;
+  grid-column: 3;
+  width: 21em;
+  position: relative;
+  right: 1em;
+  background-color: hsl(217, 19%, 35%);
+  box-shadow: 10px 10px 30px hsl(0, 0%, 81%);
+}
+.t3 {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  box-shadow: 10px 10px 30px hsl(0, 0%, 81%);
+}
+
+.t4 {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  background-color: hsl(219, 29%, 14%);
+  width: 44em;
+  box-shadow: 10px 10px 30px hsl(0, 0%, 81%);
+}
+
+.t5 {
+  grid-row: 1 / 2;
+  grid-column: 4;
+  background-color: hsl(0, 0%, 100%);
+  height: 50em;
+  position: relative;
+  right: 1.25em;
+  color: hsl(219, 29%, 14%);
+  box-shadow: 10px 10px 30px hsl(0, 0%, 81%);
+}
+
+div {
+  border-radius: 0.75em;
+}
+
+img {
+  position: relative;
+  top: 2em;
+  left: 2.75em;
+  margin-right: -0.5em;
+  border-radius: 100%;
+  height: 3em;
+  width: 3em;
+}
+
+.daniel-img {
+  border: 2px solid #ffb3ff8e;
+}
+
+.patrick-img {
+  border: 2px solid #ffb3ff8e;
+}
+
+.name1,
+.name2,
+.name3,
+.name4,
+.name5 {
+  position: relative;
+  left: 3.75em;
+  font-weight: 600;
+  font-size: 1.15em;
+  top: 0.25em;
+}
+
+.VG {
+  position: relative;
+  top: 0.5em;
+  left: 7em;
+  opacity: 50%;
+}
+
+p {
+  opacity: 70%;
+}
+.t1 h2 {
+  font-size: 1.55em;
+  width: 24em;
+  position: relative;
+  left: 1.9em;
+  top: 1.5em;
+}
+.t2 h2 {
+  font-size: 1.55em;
+  width: 10em;
+  position: relative;
+  left: 1.9em;
+  top: 1.5em;
+}
+.t3 h2 {
+  font-size: 1.55em;
+  width: 9em;
+  position: relative;
+  line-height: 1.25em;
+  left: 1.9em;
+  top: 1.5em;
+}
+.t4 h2 {
+  font-size: 1.55em;
+  width: 24em;
+  position: relative;
+  left: 2em;
+  top: 1.5em;
+}
+.t5 h2 {
+  font-size: 1.55em;
+  width: 12em;
+  position: relative;
+  left: 1.9em;
+  top: 1.5em;
+}
+.t1 p {
+  font-size: 13px;
+  width: 36em;
+  position: relative;
+  left: 3em;
+  top: 4em;
+  line-height: 1.5em;
+}
+.t2 p {
+  font-size: 13px;
+  width: 15em;
+  position: relative;
+  left: 3em;
+  top: 4em;
+  line-height: 1.5em;
+}
+.t3 p {
+  font-size: 13px;
+  width: 15em;
+  position: relative;
+  left: 3em;
+  top: 4.5em;
+  line-height: 1.5em;
+}
+.t4 p {
+  font-size: 13px;
+  width: 36em;
+  position: relative;
+  left: 3em;
+  top: 4em;
+  line-height: 1.5em;
+}
+.t5 p {
+  font-size: 13px;
+  width: 15em;
+  position: relative;
+  left: 3em;
+  top: 5em;
+  line-height: 1.56em;
+}
+
+.credit {
+  margin: auto;
+  position: relative;
+  top: 8rem;
+  left: 4rem;
+}
+.credit a {
+  color: steelblue;
+}
+
+@media (max-width: 1160px) {
+  .container {
+    grid-template-columns: 1em;
+    grid-template-rows: 37em 21em 20em 32.5em 45em;
+    width: auto;
+  }
+
+  .t1 {
+    grid-row: 1;
+    grid-column: 1;
+    width: 26em;
+    justify-self: center;
+    position: relative;
+    right: 0;
+    left: 0;
+  }
+  .t1 h2 {
+    width: 13.1em;
+  }
+  .t1 p {
+    width: 19em;
+  }
+
+  .quotation {
+    left: 16em;
+  }
+  .t2 {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+    width: 26em;
+    position: relative;
+    right: 0;
+    left: 0;
+  }
+  .t2 h2 {
+    width: 13em;
+  }
+  .t2 p {
+    width: 20em;
+  }
+  .t3 {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    width: 26em;
+    position: relative;
+    right: 0;
+    left: 0;
+  }
+  .t3 h2 {
+    width: 12em;
+  }
+  .t3 p {
+    width: 20em;
+  }
+
+  .t4 {
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    width: 26em;
+    position: relative;
+    right: 0;
+    left: 0;
+  }
+
+  .t4 h2 {
+    width: 13em;
+    left: 1.8em;
+  }
+  .t4 p {
+    width: 20em;
+    left: 2.9em;
+  }
+
+  .t5 {
+    grid-row: 5;
+    grid-column: 1;
+    justify-self: center;
+    width: 26em;
+    position: relative;
+    right: 0;
+    left: 0;
+    height: 39em;
+  }
+  .t5 h2 {
+    width: 15em;
+  }
+  .t5 p {
+    width: 20.1em;
+  }
+}
